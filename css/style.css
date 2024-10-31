@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1a293a;
+    color: white;
+}
+
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.12);
+    background-color: rgb(2, 2, 32);
+}  
+header nav ul{
+    padding: 5vh 0vh;
+    background-color: rgb(2, 2, 32);;
+}
+header nav ul a{
+    text-decoration: none;
+    padding: 0vh 5vh;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 3vh;
+    color: #afafaf;
+    background-color: rgb(2, 2, 32););
+}
+header nav ul a:hover{
+    color: rgb(255, 255, 255);
+}
+footer p{
+    color: white;
+    background-color: rgb(2, 2, 32);;
+}

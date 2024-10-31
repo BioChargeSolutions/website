@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#intro h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    padding: 10vh;
+    font-weight: bolder;
+}
+#intro h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    padding: 3vh;
+    font-weight: bolder;
+}
+
+#intro img{
+    width: 150px;
+    border: solid black;
+    border-width: 0;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+#intro p{
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 3vh;
+}
+

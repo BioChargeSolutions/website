@@ -41,6 +41,9 @@ header nav ul a{
 }
 
 @media (max-width: 768px) {
+    *{
+        margin: 10px;
+    }
     .container {
         grid-template-columns: 1fr;
     }

@@ -37,7 +37,7 @@ header nav ul a img{
 
 header nav ul a{
     padding: 10px;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 @media (max-width: 768px) {

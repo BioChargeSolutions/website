@@ -15,7 +15,7 @@ header nav ul{
 
 header nav ul li{
     font-size: 20px;
-    padding: 30px;
+    padding: 2px;
 }
 
 header nav ul li a{
@@ -37,7 +37,7 @@ header nav ul a img{
 
 header nav ul a{
     padding: 10px;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 @media (max-width: 770px) {

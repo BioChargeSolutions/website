@@ -1,7 +1,10 @@
 body div img{
-    width: 300px;
+    margin: 10px;
+    width: 100px;
 }
 
 body div p{
+    margin: 8px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }

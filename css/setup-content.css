@@ -1,15 +1,25 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
     background-color: rgb(255, 214, 152);
+}
+body div{
+    margin-left: 35vh;
+    margin-right: 35vh;
 }
 
 body div img{
-    width: 500px;
+    width: 200px;
     margin: 10px;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    border-radius: 15px;
 }
 
 body div p{
     margin: 8px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Nunito', Times, serif;
     font-size: 25px;
     font-weight: 800;
+    font-style: normal;
 }

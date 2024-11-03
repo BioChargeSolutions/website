@@ -16,7 +16,7 @@ header nav ul{
 
 header nav ul li{
     font-size: 10px;
-    padding: 60px;
+    padding: 20px;
 }
 
 header nav ul li a{
@@ -51,7 +51,7 @@ header nav ul a{
         grid-template-columns: 1fr;
     }
     header nav ul li a{
-        padding: 2px;
+        padding: 9px;
         font-size: 20px;
     }
     header nav ul a{

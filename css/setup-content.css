@@ -4,14 +4,10 @@
 
 body div img{
     width: 350px;
-    border-radius: 5px;
+    margin: 10px;
 }
 
 body div p{
+    margin: 8px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: 600;
-}
-body div p a{
-    color: blue;
 }

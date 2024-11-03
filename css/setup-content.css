@@ -2,6 +2,8 @@
 
 body {
     background-color: rgb(255, 214, 152);
+    margin: 0;
+    padding: 0;
 }
 
 body div {
@@ -23,6 +25,16 @@ body div p {
     font-style: normal;
 }
 
+nav {
+    padding: 10px 0; /* Add padding around the navbar */
+    margin: 20px auto; /* Center the navbar and add space around it */
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Floating effect */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 1200px;
+    width: calc(100% - 40px); /* Ensure it fits well on different screen sizes */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -30,7 +42,6 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #333;
 }
 
 nav ul li {
@@ -48,6 +59,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Media query for devices with a max width of 768px */
 @media (max-width: 768px) {
     body div {
         margin: 0 5vh;

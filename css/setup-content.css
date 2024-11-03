@@ -1,7 +1,17 @@
+*{
+    background-color: rgb(255, 214, 152);
+}
+
 body div img{
-    width: 300px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 body div p{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+body div p a{
+    color: blue;
 }

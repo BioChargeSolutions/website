@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-body{
+body {
     background-color: rgb(255, 214, 152);
 }
-body div{
-    margin-left: 35vh;
-    margin-right: 35vh;
+
+body div {
+    margin: 0 35vh;
 }
 
-body div img{
+body div img {
     width: 200px;
-    margin: 10px;
-    margin-left: 50vh;
-    margin-right: 50vh;
+    margin: 10px auto;
+    display: block;
     border-radius: 15px;
 }
 
-body div p{
+body div p {
     margin: 8px;
     font-family: 'Nunito', Times, serif;
     font-size: 25px;
@@ -24,11 +23,17 @@ body div p{
     font-style: normal;
 }
 
+/* Media query for devices with a max width of 768px */
 @media (max-width: 768px) {
-    body div img{
-        width: 200px;
-        border-radius: 15px;
+    body div {
+        margin: 0 5vh;
     }
-    body div{
-        margin: 0;
+
+    body div img {
+        width: 100%;
     }
+
+    body div p {
+        font-size: 18px;
+    }
+}

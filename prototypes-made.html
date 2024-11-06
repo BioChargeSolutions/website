@@ -6,8 +6,48 @@
     <link rel="stylesheet" href="/BioCharge-Solutions/css/nav.css">
     <link rel="icon" href="/BioCharge-Solutions/images/logo-transparent.png">
     <title>BioCharge Solutions</title>
-</head>
+    <style>
+        body {
+            background-color: #FFDAB9;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .prototype {
+            margin: 0 20px;
+            text-align: center;
+        }
+        .prototype img {
+            width: 100px;
+            height: auto;
+        }
+        .prototype p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .prototype img {
+                width: 80px;
+            }
+            .prototype p {
+                font-size: 16px;
+            }
+        }
+    </style>
 
+</head>
 <header>
     <nav>
         <ul class="all-center">
@@ -20,6 +60,16 @@
 </header>
 
 <body>
-    
+<body>
+    <div class="container">
+        <div class="prototype">
+            <img src="/BioCharge-Solutions/images/prototype-image.jpg" alt="Prototype 1">
+            <p>Prototype 1</p>
+        </div>
+        <div class="prototype">
+            <img src="/BioCharge-Solutions/images/prototype2.jpg" alt="Prototype 2">
+            <p>Prototype 2</p>
+        </div>
+    </div>
 </body>
 </html>

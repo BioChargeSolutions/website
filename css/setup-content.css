@@ -28,6 +28,10 @@ body div p {
     font-style: normal;
 }
 
+#pc-note{
+    border: 1px solid black;
+}
+
 /* Media query for devices with a max width of 768px */
 @media (max-width: 768px) {
     body div {
